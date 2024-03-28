@@ -1,11 +1,11 @@
-Node -v 18.16.0
+Node -v 16.14.0
 
-# to install packages
+# To install packages
 npm i
 
-# if the Node sass will not auto installed, then install using the below cmd
+# If the Node sass will not auto installed, then install using the below cmd
 npm i node-sass
 
-# to run the app
+# To run the app
 npm start
 

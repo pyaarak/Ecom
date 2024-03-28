@@ -1,0 +1,30 @@
+.home_wrapper {
+    position: relative;
+
+    .home_inner_wrapper {
+        margin-top: 20px;
+
+        .Header {
+            text-align: left;
+            margin-left: 20px;
+            font-weight: 700;
+        }
+
+        .row {
+            width: 100%;
+
+            .cat-details {
+                padding: 30px;
+            }
+
+            .card {
+                cursor: pointer;
+
+                &:hover {
+                    transition: all .25s;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
